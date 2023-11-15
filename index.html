@@ -35,8 +35,30 @@
         a + a {
             background-color: crimson;
         }
+        p:hover {
+            color: green;
+            font-weight: bold;
+        }
+
+        p::before {
+            content: "Hello";
+            color: brown;
+            font-weight: bold;
+        }
+
+        p::after {
+            content: "Bye!";
+            color: blue;
+            font-weight: bold;
+        }
+
+        p::selection{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
     </style>
 <body>
+    <p>Paint me</p>
         <iframe src="https://www.youtube.com/watch?v=ZH9OzGuSudM" frameborder="0"></iframe>
         <div class="abc">
         <a href="#">Home</a>
