@@ -56,8 +56,54 @@
             background-color: blueviolet;
             color: aliceblue;
         }
+        .visible {
+            visibility: visible;
+        }
+        .hidden {
+            visibility: hidden;
+        }
+        .op1 {
+            opacity: 1;
+        }
+        .op0 {
+            opacity: 0;
+        }
+        .op0.5 {
+            opacity: 0.5
+        }
+        .none {
+            display: none;
+            font-weight: bold;
+        }
+        .inline {
+            display: inline;
+            font-weight: bold;
+        }
+        .block {
+            display: block;
+            font-weight: bold;
+        }
+        h3 {
+            background-color: aquamarine;
+            text-align: center;
+        }
     </style>
 <body>
+    <h3>Visibility property</h3>
+    <p class="visible">visible</p>
+    <p class="hidden">hidden</p>
+
+    <br><br><br>
+    <h3>Opacity</h3>
+    <p class="op1">Opacity 1</p>
+    <p class="op0">Opacity 0</p>
+    <p class="op0.5">Opacity 0.5</p>
+
+    <br><br><br>
+    <h3>Display</h3>
+    <p>Hey bestie <span class="none">Am I visible</span>Display: none</p>
+    <p>Hey bestie <span class="inline">Am I visible</span>Display: none</p>
+    <p>Hey bestie <span class="block">Am I visible</span>Display: none</p>
     <p>Paint me</p>
         <iframe src="https://www.youtube.com/watch?v=ZH9OzGuSudM" frameborder="0"></iframe>
         <div class="abc">
