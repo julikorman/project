@@ -20,5 +20,43 @@
       height:500px;
       width:auto;
     }
+/* Animation for fade-in effect */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
 
+    /* Apply styles to div with animation */
+    .animated-box {
+      width: 200px;
+      height: 200px;
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      line-height: 200px;
+      margin: 20px;
+      padding: 20px;
+      opacity: 0; /* Set initial opacity to 0 */
+      animation: fadeIn 1s forwards; /* Apply animation */
+    }
+
+    /* Apply styles to button with hover effect */
+    .hover-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2ecc71;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; /* Apply transition */
+    }
+
+    /* Hover effect */
+    .hover-button:hover {
+      background-color: #27ae60;
+    }
 
