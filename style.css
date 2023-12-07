@@ -12,14 +12,14 @@
     /* Apply styles to images */
     .image-container {
       margin: 20px;
-      height:100%;
+      height:100hv;
       width:auto;
     }
 
     /* Apply image filter */
     .filtered-image {
       filter: grayscale(50%) blur(5px);
-      height:100%;
+      height:100hv;
       width:auto;
     }
 
