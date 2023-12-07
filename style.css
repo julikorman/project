@@ -12,15 +12,13 @@
     /* Apply styles to images */
     .image-container {
       margin: 20px;
-      height:100vh;
-      width:auto;
     }
 
     /* Apply image filter */
     .filtered-image {
       filter: grayscale(50%) blur(5px);
       height:100vh;
-      width:auto;
+      width:100vw;
     }
 
 
