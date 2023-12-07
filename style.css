@@ -12,6 +12,8 @@
     /* Apply styles to images */
     .image-container {
       margin: 20px;
+      height:100%;
+      width:auto;
     }
 
     /* Apply image filter */
