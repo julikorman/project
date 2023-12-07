@@ -17,8 +17,8 @@
     /* Apply image filter */
     .filtered-image {
       filter: grayscale(50%) blur(5px);
-    }
-img {
       height:100%;
       width:auto;
-}
+    }
+
+
