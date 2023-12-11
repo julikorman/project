@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trial.css">
+</head>
+<body>
+            <div class="header">
+                <h1>Massachusetts Institute of Technology: MIT</h1>
+                <p>Join us in building a better world.</p>
+            </div>
+            
+            <div class="topnav">
+                <a href="trial.html">Home</a>
+                <a href="education.html">Schools & Departments</a>
+                <a href="research.html">Research</a>
+                <a href="contact.html" style="float:right">Contact us</a>
+            </div>
+
+    <div class="leftcolumn">
+        <div class="card">
+            <section>
+                <img class="mySlides" src="mit2.jpg" style="width:100%">
+                <img class="mySlides" src="mit5.jpeg" style="width:100%">
+                <img class="mySlides" src="mit4.jpg" style="width:100%">
+            </section>
+            <script>
+                var myIndex = 0;
+                    carousel();
+        
+                    function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}
+                    x[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                    }
+            </script>
+        </div>
+
+        <div class="leftcolumnx2">
+            <div class="card">
+                <div>
+                    <h3>Teaching & Learning</h3>
+                    <p>Because we like to make things, and we like to make an impact, iconic courses like 2.009 emphasize designing, inventing, collaborating, and translating students’ expertise to reach the world. Through signature experiential learning programs like UROP, UPOP, MISTI, PKG, IAP, D-Lab, and Sandbox, students can pursue virtually infinite co-curricular and extracurricular projects — here at MIT, throughout the Greater Boston innovation hub, and around the world. Honeycombed with legendary laboratories and dozens of makerspaces, a wind tunnel, a research nuclear reactor, and a glass lab, our campus of idiosyncratically numbered buildings adds up to a prime spot to make the most of your potential.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    
+    <div class="rightcolumn">
+        <div class="card">
+          <section >
+            <h2 class="schools">Schools, Departments & the College</h2>
+            <p><i>Our campus is a workshop for inventing the future and we are all apprentices, learning from each other as we go.</i></p>
+            <p>Across MIT, faculty help set the global standard of excellence in their disciplines: They are pioneering scholars who love to teach. Deeply engaged in practice, they topple conventional walls between fields in the push for deeper understanding and fresh ideas. In fact, many faculty actively work in at least one of MIT’s interdisciplinary labs, centers, initiatives, and institutes that target crucial challenges, from clean energy to cancer.</p>
+          </section>
+        </div>
+
+        <div class="card">
+            <img src="mitstudents.jpg" alt="">
+        </div>
+        
+    <div class="rightcolumnx2">
+        <div class="card">
+            <h4>Top Resources</h4>
+            <ol>
+                <li>Departments by School</li>
+                <li>School of Architecture and Planningsap.mit.edu</li>
+                <li>School of Engineering</li>
+                <li>School of Humanities, Arts, and Social Sciences</li>
+                <li>MIT Sloan School of Management</li>
+                <li>School of Science</li>
+                <li>MIT Schwarzman College of Computing</li>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
